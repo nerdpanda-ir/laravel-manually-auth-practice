@@ -1,0 +1,39 @@
+#recently-users {
+    list-style-type: none;
+}
+#recently-users li {
+    float: left;
+    border-radius: 25px;
+    border: 2px solid #272727;
+    padding: 5px;
+    margin: 10px 25px ;
+}
+#recently-users li img {
+    width: 42px;
+    height: 42px;
+    border-radius: 100% ;
+}
+#recently-users li span {
+    position: relative;
+    bottom: 15px;
+}
+nav{
+    height: 40px;
+    background: #1e1e1e;
+    color: white;
+}
+#welcome {
+    position: relative;
+    bottom: 15px;
+}
+nav img {
+    height: inherit;
+}
+#logoutWrapper {
+    float: right;
+}
+#logoutWrapper a {
+    color: white;
+    position: relative;
+    top: 12px;
+}
